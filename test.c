@@ -9,7 +9,7 @@ int main() {
 	init_lcd_display();
 	init_buzzer();
 	init_push_button_array();
-	unsigned char str[] = "buzzPi  PROJECT";
+	unsigned char str[] = "fullPi  PROJECT";
 	puts_str(str);
 
 	while (1) {
